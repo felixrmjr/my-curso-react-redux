@@ -1,6 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './componente'
+import Family from './family'
+import Member from './member'
 
 // ReactDOM é a parte do react que interage com o DOM
-ReactDOM.render(<Component value="Show!" />, document.getElementById('app'))
+ReactDOM.render(
+    <Family lastName="Silva">
+        <Member name="Guilherme" />
+        <Member name="Rafael" />
+        <Member name="Julia" />
+    </Family>
+, document.getElementById('app'))
