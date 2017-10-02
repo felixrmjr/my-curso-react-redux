@@ -6,3 +6,8 @@ npm i --save-dev mongoose@4.7.0
 npm i --save-dev node-restful@0.2.5
 npm i --save-dev pm2@2.1.5
 npm i --save-dev nodemon@1.11.0
+
+/** IMPORTANTE ************************************/
+- Para inicializar a aplicação não esquecer de inicializar
+  o mongo com o comando mongod;
+- RS = Comando para restartar o NodeMom
