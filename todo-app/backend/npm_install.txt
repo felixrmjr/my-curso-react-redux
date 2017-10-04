@@ -11,3 +11,7 @@ npm i --save-dev nodemon@1.11.0
 - Para inicializar a aplicação não esquecer de inicializar
   o mongo com o comando mongod;
 - RS = Comando para restartar o NodeMom
+
+/** FILTROS **************************************/
+Ordenação:  ?sort=-createAt
+Verificar outros filtros em https://github.com/baugarten/node-restful
