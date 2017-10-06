@@ -25,4 +25,5 @@ npm i --save-dev font-awesome@4.7.0
 // React
 npm i --save-dev react@15.4.2
 npm i --save-dev react-dom@15.4.2
+npm i --save-dev react-router@3.0.2
 npm i --save-dev axios@0.15.3           // Chamadas http para a API
